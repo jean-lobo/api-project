@@ -10,7 +10,7 @@ class ApiController extends Controller
     public function getAllStudents() {
       $students = Student::get()->toJson(JSON_PRETTY_PRINT);
       return response($students, 200);
-      }
+    }
   
     public function createStudent(Request $request) {
     $student = new Student;

@@ -8,5 +8,5 @@ class Student extends Model
 {
     protected $table = 'students';
 
-    protected $fillable = ['name', 'course'];
+    protected $fillable = ['name', 'course','year','college_name','college_moto'];
 }

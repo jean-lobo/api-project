@@ -17,6 +17,9 @@ class CreateStudentsTable extends Migration
             $table->id(); 
             $table->string('name');
             $table->string('course');
+            $table->year('year'); 
+            $table->string('college_name'); 
+            $table->string('college_moto');
             $table->timestamps();
         });
     }
